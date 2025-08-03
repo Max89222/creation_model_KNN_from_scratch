@@ -63,11 +63,3 @@ model.fit(X_train, y_train)         # entraînement de notre modèle
 print('score final (accuracy) :', model.score(X_test, y_test))      # affichage du score de notre modèle
 print('paramètre otptimal pour n_neighbors :', best_param)      
 
-plt.plot(k, accuracy)
-plt.axvline(x=best_param, color='r', linestyle='--', label=f'Best k = {best_param}')
-plt.xlabel("k")
-plt.ylabel("Accuracy")
-plt.title("Choix du meilleur k")
-plt.legend()
-plt.grid(True)
-plt.show()

@@ -1,9 +1,8 @@
 from sklearn.datasets import make_classification
 import pandas as pd
-from sklearn.model_selection import train_test_split, validation_curve, cross_val_score
+from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn.metrics import accuracy_score
 from tqdm import tqdm
 
 np.random.seed(0)
